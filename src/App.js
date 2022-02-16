@@ -2,12 +2,6 @@ import { useState,useEffect,useRef,useContext } from 'react';
 import './App.css';
 import Body from './Body';
 import Header from './Header';
-import {db,app_storage} from './firebase';
-import {collection,getDocs,addDoc,updateDoc,doc,query,where,onSnapshot,add,orderBy} from 'firebase/firestore';
-import {BrowserRouter as Router,Routes,Route} from 'react-router-dom';
-import Createpost from './Createpost';
-import CreatePhotoVideo from './CreatePhotoVideo';
-import Ticker from 'react-ticker'
 
 import Reels from './Reels'
 
